@@ -7,7 +7,7 @@ h1{
 }
 body{
     background-color: whitesmoke;
-    background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("fundo.jpg");
+    background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("fundo.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
