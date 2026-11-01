@@ -11,11 +11,18 @@ h2{
 }
 p{
     font-size: 30px;
-    color: black;
-    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 body{
     background-color: whitesmoke;
+    background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 #buscas{
     font-size: 40px;
