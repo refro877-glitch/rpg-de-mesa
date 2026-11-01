@@ -1,0 +1,145 @@
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family:sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+#primeiros{
+    font-size: 20px;
+    color: black;
+    border: 3px solid black;
+    padding: 15px 25px;  
+    margin: 9px; 
+    
+}
+p{
+    font-size: 30px;
+    color: black;
+    font-family:cursive;
+}
+.pergunta-final {
+    text-align: center;
+    margin: 60px auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.pergunta-final h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.botoes-decisao {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.botao-opcao {
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    padding: 15px 35px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.botao-opcao:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
+#buscas{
+    font-size: 40px;
+    justify-content: space-between;
+    display: flex;
+
+}
+#buscas a {
+    color: black;
+    border: 3px solid black;
+    border-radius: 8%;
+    padding: 15px 25px;  
+    margin: 0;               
+    text-align: center;      
+    flex: 2;              
+    max-width: 20%;       
+    text-decoration: none;
+} 
+#dado {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    font-size: 35px;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 1000;
+}
+#dado:hover {
+    transform: scale(1.1);
+}
+#dado.rolando {
+    animation: girar 0.6s ease-in-out;
+}
+@keyframes girar {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(720deg); }
+}
+@media (max-width: 768px) {
+     #buscas {
+        flex-direction: column; 
+        gap: 10px;              
+    }
+
+    #buscas a {
+        max-width: 100%;        
+        font-size: 24px;        
+        padding: 10px 15px;     
+    }
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+label {
+    font-size: 22px; 
+    font-weight: bold; }
+input, select {
+    padding: 10px;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+#resultado {
+    margin: 20px auto 0;
+    max-width: 400px;
+    font-size: 24px;
+    border: 3px solid black;
+    padding: 10px 20px;
+    min-height: 50px;
+    text-align: left;
+}
+footer { 
+    background: black; 
+    color: white; 
+    text-align: center; 
+    margin-top: 30px; 
+}
+footer p { 
+    font-size: 16px; 
+    color: white; 
+    margin: 0; 
+    padding: 15px; 
+}

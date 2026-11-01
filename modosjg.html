@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="dada.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aprendizado rpg de mesa</title>
+    <link rel="stylesheet" href="estiloc.css">
+</head>
+<body>
+    <header>
+ <h1>COMO JOGAR</h1>
+ <nav id="buscas">
+    <a href="historia.html" class="botao-busca">historia</a>
+    <a href="popularidade.html" class="botao-busca">popularizacao</a>
+    <a href="index.html" class="botao-busca">inicio</a>
+</nav>
+</header>
+<main>
+<section id="primeiros">
+  <h2>itens basicos para começar:</h2>
+    <p>O RPG de mesa é um jogo onde você e seus amigos criam uma história juntos. Uma pessoa será o Mestre (que controla o mundo e os monstros) e os outros serão os Jogadores (que controlam os heróis da aventura). Não existe um "vencedor", o objetivo é se divertir contando a história.</p>
+    <ul>
+        <li>papel</li>
+        <li>lapis</li>
+        <li>muita criatividade</li>
+    </ul>
+        <p>"(claro que com o avanço da tecnologia cada vez mais existem sites com fichas onlines mais isso e a parte.)"</p>
+        </section>
+
+        <article>
+            <p>O jogo funciona como uma conversa organizada. O Mestre descreve o lugar onde vocês estão e os perigos ao redor. Depois, você diz o que o seu personagem quer fazer (como "tentar arrombar a porta" ou "atacar o goblin").</p>
+            <p>Quando você tenta fazer algo difícil ou perigoso, a sorte decide o resultado. Você rola um dado de 20 lados (d20). Se o número do dado for alto, a sua ação dá certo de um jeito incrível. Se o número for muito baixo, algo dá errado e a história continua com um novo desafio!</p>
+        </article>
+
+ <section class="pergunta-final">
+    <h2>Agora crie seu personagem</h2>
+    <form id="formFicha">
+        <label for="nome">Nome</label>
+    <input type="text" id="nome" placeholder="Ex:madruga">
+    <label for="classe">Classe</label>
+    <select id="classe">
+        <option value="Guerreiro">Guerreiro</option>
+            <option value="Mago">Mago</option>
+            <option value="Ladino">Ladino</option>
+            <option value="Clerigo">clerigo</option>
+    </select>
+    <button type="submit" class="botao-opcao">Criar personagem</button>
+</form>
+            <div id="resultado"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Projeto de Desenvolvimento Web Estatico IFSP Campinas, Luis felipe dos anjos de jesus</p>
+    </footer>
+    <script src="rolar.js"></script>
+    <script src="jogador.js"></script>
+</body>
+</html>
