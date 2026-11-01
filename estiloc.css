@@ -19,7 +19,7 @@ body{
 p{
     font-size: 30px;
     color: black;
-    font-family:cursive;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .pergunta-final {
     text-align: center;

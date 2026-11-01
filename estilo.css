@@ -10,11 +10,9 @@ h2{
     font-size: 35px;
 }
 p{
-    text-align: center;
     font-size: 30px;
-    color: white;
-    background-color: black;
-    font-family:cursive;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
 }
 body{
     background-color: whitesmoke;
